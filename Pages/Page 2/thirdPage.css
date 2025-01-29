@@ -1,0 +1,40 @@
+.container {
+    position: relative;
+}
+body {
+    background-color: purple;
+}
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.btn{
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 20px;
+}
+
+#disable{
+    cursor: wait;
+}
+
+#enable{
+    display: none;
+}
+
+.watermark {
+    opacity: 1;
+    color: rgb(255, 255, 255);
+    position: fixed;
+    top: 95%;
+    left: 47%;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
